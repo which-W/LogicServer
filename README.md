@@ -90,7 +90,7 @@ vcpkg install boost-asio boost-system
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/LogicServer.git
+   git clone https://github.com/Which-W/LogicServer.git
    cd LogicServer
    ```
 
@@ -378,7 +378,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Your Name** - *Initial work* - [YourGitHub](https://github.com/Which-W)
 
 ## 🙏 Acknowledgments
 
