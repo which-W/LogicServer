@@ -1,0 +1,40 @@
+﻿  CSession.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+F:\CS_learn\CPP_learn\web_socket_asio_learn\logicServer\logicServer\CSession.cpp(52,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\CS_learn\CPP_learn\web_socket_asio_learn\logicServer\logicServer\CSession.cpp(72,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\CS_learn\CPP_learn\web_socket_asio_learn\logicServer\logicServer\CSession.cpp(141,36): warning C4267: “+=”: 从“size_t”转换到“short”，可能丢失数据
+F:\CS_learn\CPP_learn\web_socket_asio_learn\logicServer\logicServer\CSession.cpp(183,35): warning C4267: “+=”: 从“size_t”转换到“short”，可能丢失数据
+F:\CS_learn\CPP_learn\web_socket_asio_learn\logicServer\logicServer\CSession.cpp(217,34): warning C4267: “+=”: 从“size_t”转换到“short”，可能丢失数据
+D:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xutility(403,82): warning C4267: “参数”: 从“size_t”转换到“short”，可能丢失数据
+  (编译源文件“CSession.cpp”)
+      D:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\xutility(403,82):
+      模板实例化上下文(最早的实例化上下文)为
+          F:\CS_learn\CPP_learn\web_socket_asio_learn\logicServer\logicServer\CSession.cpp(58,17):
+          查看对正在编译的函数 模板 实例化“std::shared_ptr<SendNode> std::make_shared<SendNode,const _Elem*,unsigned __int64,short&>(const _Elem *&&,unsigned __int64 &&,short &)”的引用
+          with
+          [
+              _Elem=char
+          ]
+          D:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\memory(2906,46):
+          查看对正在编译的函数 模板 实例化“std::_Ref_count_obj2<SendNode>::_Ref_count_obj2<_Ty,unsigned __int64,short&>(_Ty &&,unsigned __int64 &&,short &)”的引用
+          with
+          [
+              _Ty=const char *
+          ]
+          D:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.41.34120\include\memory(2095,18):
+          查看对正在编译的函数 模板 实例化“void std::_Construct_in_place<_Ty,const char*,unsigned __int64,short&>(_Ty &,const char *&&,unsigned __int64 &&,short &) noexcept(false)”的引用
+          with
+          [
+              _Ty=SendNode
+          ]
+  
+  LogicSystem.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  正在生成代码...
+  logicServer.vcxproj -> F:\CS_learn\CPP_learn\web_socket_asio_learn\logicServer\x64\Debug\logicServer.exe
