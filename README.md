@@ -19,14 +19,14 @@ A robust, high-performance network server built with Boost.Asio featuring multi-
 
 ## 📋 Table of Contents
 
-- [Architecture](#architecture)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [API Reference](#api-reference)
-- [Building](#building)
-- [Contributing](#contributing)
-- [License](#license)
+- [Architecture](#%EF%B8%8F-architecture)
+- [Installation](#%EF%B8%8F-installation)
+- [Usage](#-usage)
+- [Configuration](#%EF%B8%8F-configuration)
+- [API Reference](#-api-reference)
+- [Building](#-building)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ## 🏗️ Architecture
 
@@ -359,9 +359,9 @@ export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 ## 🤝 Contributing
 
 1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
+2. **Create** a feature branch (`git checkout -b LogicServer/Test`)
+3. **Commit** your changes (`git commit -m 'how do you to modify '`)
+4. **Push** to the branch (`git push origin LogicServer/Test`)
 5. **Open** a Pull Request
 
 ### Development Guidelines
@@ -378,7 +378,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/Which-W)
+- **WGT** - *Initial work* - [WGT](https://github.com/Which-W)
 
 ## 🙏 Acknowledgments
 
@@ -399,4 +399,4 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ⭐ **Star this repository if you find it useful!**
 
-For more information, bug reports, or feature requests, please visit the [Issues](https://github.com/yourusername/LogicServer/issues) page.
+For more information, bug reports, or feature requests, please visit the [Issues](https://github.com/Which-W/LogicServer/issues) page.
