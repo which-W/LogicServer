@@ -95,7 +95,9 @@ vcpkg install boost-asio boost-system
    ```
 
 2. **Build the project**
-
+### To ensure consistency across systems and configuration files:
+On Windows, you’ll need to manually build the required Boost .lib files and place them in the appropriate directory as specified by the project.
+On Linux, you can remove the commented-out sections related to Windows. Make sure Boost and JsonCpp are already installed on your system before building.
    ```bash
    mkdir build && cd build
    cmake ..
