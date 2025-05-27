@@ -4,12 +4,12 @@ set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreadedDebug")  # /MTd
 project("LogicServer" VERSION 1.0)
 
 set(CMAKE_CXX_STANDARD 20)
-#ÕâÊÇlinuxµÄ
-# ÉèÖÃ Boost,jsoncpp µÄÂ·¾¶
+#è¿™æ˜¯linuxçš„
+# è®¾ç½® Boost,jsoncpp çš„è·¯å¾„
 #set(BOOST_ROOT /usr)
 #set(JSONCPP_INC_DIR /usr/local/include)
 
-#ÕâÊÇ¸øwindowÐ´µÄ
+#è¿™æ˜¯ç»™windowå†™çš„
 set(BOOST_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/Boost/x86/)
 set(Boost_INCLUDE_DIR ${BOOST_ROOT}/include/boost.1.8/)
 set(Boost_LIBRARY_DIR ${BOOST_ROOT}/lib)
@@ -28,7 +28,7 @@ add_executable("LogicServer" ${SOURCES})
 
 target_include_directories("LogicServer" PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/static
-    ${BOOST_ROOT}/include/boost.1.8/
+    ${BOOST_ROOT}/include/boost-1_8/
     ${JSONCPP_INC_DIR}
 )
 
