@@ -1,9 +1,9 @@
 ﻿#include <iostream>
-#include "CServer.h"
+#include "./src/CServer.h"
 #include <thread>
 #include <mutex>
 #include <csignal>
-#include "AsioIOServicePool.h"
+#include "./src/AsioIOServicePool.h"
 using namespace std;
 
 //bool bstop = false;
