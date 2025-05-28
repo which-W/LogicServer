@@ -28,7 +28,7 @@ add_executable("LogicServer" ${SOURCES})
 
 target_include_directories("LogicServer" PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/static
-    ${BOOST_ROOT}/include/boost-1_8/
+    ${BOOST_ROOT}/include/boost-1_85/
     ${JSONCPP_INC_DIR}
 )
 
